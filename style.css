@@ -1,0 +1,239 @@
+/*
+Theme Name: marcos-practice
+Theme URL: alexhorton.co
+Description: test theme Brand Journalists
+Version: 1.0
+Author: Alex Horton
+Author URL: alexhorton.co
+Tags: alexhorton
+*/
+
+/*red: #ff0019*/
+
+body {
+  height: 100%;
+  font-family: verdana;
+  margin: 0;
+}
+
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*------------header-----------*/
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+/*heading section*/
+.levelone {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  align-self: center;
+}
+
+.marcosLogo .logo{
+  height: 140px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.marcosContact {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.marcosContact .contactIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+.marcosContact .contactIcons div {
+  margin-left: 15px;
+}
+
+.franchiseInfo {
+  margin: 0;
+  margin-bottom: 5px;
+  align-self: flex-end;
+}
+
+.marcosContact h3 {
+  margin: 0;
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+}
+
+.marcosContact .reBtn {
+  align-self: flex-end;
+  background-color: #ff0019;
+  width: 110px;
+  height: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+}
+
+.reBtn p {
+  font-size: .8rem;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.reBtn p:hover {
+  color: #ebff00;
+  transition: 0.2s;
+}
+
+/*nav section*/
+
+.leveltwo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #ff0019;
+}
+
+.leveltwo p {
+  text-transform: uppercase;
+  color: white;
+  transition: 0.2s;
+}
+
+.leveltwo p:hover {
+  color: #ebff00;
+  transition: 0.2s;
+}
+
+/*hero image section*/
+
+.levelthree {
+  height: 300px;
+  background-size: cover;
+}
+
+.reportBtn {
+  background-color: #ff0019;
+  display: inline-block;
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 200px;
+  margin-left: 275px;
+}
+
+.reportBtn p {
+  color: white;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.2s;
+}
+
+.reportBtn p:hover {
+  color: #ebff00;
+  transition: 0.2s;
+}
+
+/*----------content-----------*/
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 40px auto 0;
+}
+
+
+/*contentInfo*/
+
+.contentInfo {
+  width: 70%;
+}
+
+.contentInfoTag {
+  width: 80%;
+  border-bottom: 3px solid #ff0019;
+}
+
+.contentInfo img {
+  width: 500px;
+  margin-bottom: 5px;
+}
+
+.contentInfoText {
+  width: 80%;
+}
+
+.contentInfoText h3 {
+  font-size: 1.4rem;
+  margin-top: 3px;
+}
+
+.contentInfoText h3 span {
+  font-size: 1rem;
+  vertical-align: text-top;
+}
+
+.contentInfoText p {
+  line-height: 23px;
+  color: #444;
+}
+
+/*sidebar*/
+
+.sidebar {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebarCall {
+  margin: 0 auto;
+}
+
+.sidebarCall p {
+  color: #444;
+  text-transform: uppercase;
+  text-align: justify;
+  margin-bottom: 0;
+}
+
+.sidebarCall h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.sidebarRequest {
+  background-color: #ff0019;
+  color: white;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.requestWrap {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.requestWrap h3 {
+  font-weight: lighter;
+  font-size: 1.5rem;
+}
+
+.requestWrap p {
+  font-weight: lighter;
+}
